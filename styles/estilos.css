@@ -1,0 +1,937 @@
+@charset "UTF-8";
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+.btn--red1 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px purple;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
+.btn--red2 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px gold;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
+.btn--red3 {
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  border: 2px solid #fc8d38;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px green;
+  font-family: cursive;
+  padding-top: 5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  /*INICIO HEADER*/
+  /*FIN HEADER*/
+  /*+++++++++INICIO INDEX+++++++*/
+  /*INICIO SECCION ESPACIO*/
+  /*FIN SECCION ESPACIO*/
+  /*INICIO SECCION 2*/
+  /*FIN SECCION 2*/
+  /*INICIO SECCION 3*/
+  /*FIN SECCION 3*/
+  /*INICIO SECCION 4 MASAJE*/
+  /*FIN SECCION 4 MASAJE*/
+  /*INICIO SECCION 5 COMENTS*/
+  /*FIN SECCION 5 COMENTS*/
+  /*+++++++++FIN INDEX.HTML+++++++*/
+  /*+++++++++FIN INDEX.HTML+++++++*/
+  /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
+  /*+++++++++ INICIO NOSOTROS.HTML+++++++*/
+  /*INICIO EXTEND*/
+  /*FIN EXTEND*/
+  /*INICIO MIXINS*/
+  /*FIN MIXINS*/
+  /*+++++++++FIN NOSOTROS+++++++*/
+  /*+++++++++FIN NOSOTROS+++++++*/
+  /*+++++++INICIO SERVICIOS+++++++++*/
+  /*+++++++FIN SERVICIOS++++++++++*/
+  /*++++++++++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
+  /*++++++++++++++++++++++++FIN IMAGENES+++++++++++++++++*/
+  /*+++++++++++++++++++++++INICIO CLASES++++++++++++++++++*/
+  /*+++++++++++++++++++++++FIN CLASES++++++++++++++++++++*/
+  /*+++++++++++++++++INICIO CONTACTO+++++++++++++++*/
+  /*++++++++++++++++++++FIN CONTACTO++++++++++++++++*/
+  /*INICIO FOOTER*/
+  /*FIN FOOTER*/
+  /*++++++++++++++++++++++++++++++++++QUERIES celular+++++++++++++++++++++++++++++++++++++++*/
+  /*+++++++++++++QUERIES+++++++++++++*/
+}
+* header {
+  background-color: #323037;
+}
+* header img {
+  height: 80px;
+  width: 80px;
+}
+* header .navbar-light .navbar-nav .nav-link {
+  color: #fc8d38;
+}
+* header .navbar-light .navbar-nav .nav-link:hover {
+  color: wheat;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+* header .navbar-light .navbar-toggler {
+  color: wheat;
+  background-color: wheat;
+}
+* header .navbar-toggler-icon {
+  color: wheat;
+}
+* .espacio {
+  background-image: url(../img/amapolas.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: #ceccca;
+  position: relative;
+}
+* .espacio .caja1 {
+  height: 72%;
+  width: 45%;
+  background-image: url(../img/romisinfon.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 53%;
+  top: 40px;
+  z-index: 2;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translate(8%, 1%);
+  }
+  50% {
+    transform: translate(8%, 10%);
+  }
+  100% {
+    transform: translate(8%, 1%);
+  }
+}
+* .espacio .caja2 {
+  height: 70%;
+  width: 60%;
+  background-color: #fc8d38;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  z-index: 1;
+  overflow: hidden;
+}
+* .espacio .caja2 h2 {
+  color: white;
+  text-transform: uppercase;
+  width: 40%;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  position: relative;
+  left: 48%;
+  top: 10%;
+  text-shadow: 1px 1px #323037;
+}
+* .espacio .caja2 p {
+  font-size: 20px;
+  color: white;
+  width: 40%;
+  position: relative;
+  text-align: left;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  left: 48%;
+  top: 15%;
+}
+* .sec2 {
+  height: 1000px;
+  width: 100%;
+  background-color: #fc8d38;
+  display: flex;
+  flex-direction: column;
+}
+* .sec2 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  position: relative;
+  width: 40%;
+  left: 50%;
+  top: 7%;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px #323037;
+}
+* .sec2 p {
+  font-size: 20px;
+  position: relative;
+  width: 40%;
+  left: 50%;
+  top: 10%;
+  color: white;
+}
+* .sec2 .imgSec2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 20%;
+}
+* .sec2 .img1 {
+  padding: 0 10px;
+}
+* .sec3 {
+  background-image: url(../img/amapolas2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: #ceccca;
+  position: relative;
+}
+* .sec3 .caja3 {
+  height: 70%;
+  width: 60%;
+  background-image: url(../img/yoga-header22.JPG);
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 30%;
+  top: 40px;
+  /*animation: backInUp;
+  animation-duration: 3s;*/
+}
+* .sec3 .caja4 {
+  height: 70%;
+  width: 40%;
+  background-color: aliceblue;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  z-index: 1;
+  overflow: hidden;
+}
+* .sec3 .caja4 h2 {
+  color: #fc8d38;
+  text-transform: uppercase;
+  width: 60%;
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  position: relative;
+  left: 25%;
+  top: 10%;
+  text-shadow: 1px 1px #323037;
+}
+* .sec3 .caja4 p {
+  font-size: 20px;
+  color: #fc8d38;
+  width: 60%;
+  position: relative;
+  text-align: left;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  left: 25%;
+  top: 15%;
+}
+* .sec4 {
+  height: 600px;
+  background-image: url(../img/massage.jpg);
+  background-size: cover;
+  background-position: center;
+  color: wheat;
+  text-align: center;
+  justify-content: center;
+}
+* .sec4 h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  width: 30%;
+  left: 60%;
+  top: 15%;
+  text-shadow: 1px 1px #323037;
+}
+* .sec4 p {
+  font-size: 20px;
+  position: relative;
+  width: 30%;
+  left: 60%;
+  top: 20%;
+}
+* .sec5 {
+  height: 500px;
+  width: 100%;
+  background-color: #ceccca;
+  justify-content: center;
+}
+* .sec5 .coment1 {
+  height: 300px;
+  width: 100%;
+  background-color: #5e5e64;
+}
+* .nosotros {
+  padding-top: 15%;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: initial;
+}
+* .nosotros .secHistory {
+  padding: 20px;
+  display: flex;
+  height: 40%;
+  width: 40%;
+  background-color: rgba(17, 1, 1, 0.5);
+  justify-content: center;
+  flex-direction: column;
+  color: #fc8d38;
+}
+* .nosotros .secHistory h2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px #323037;
+}
+* .historia {
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fc8d38;
+}
+* .historia .imgHistoria {
+  background-color: #5e5e64;
+  background-image: url(../img/advantages-of-yoga1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+  width: 60%;
+}
+* .historia2 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fc8d38;
+}
+* .imgHistoria2 {
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+  width: 60%;
+}
+* .imgHistoria2 .textHistoria {
+  width: 80%;
+}
+* .redsocial, * .redsocial--nueva {
+  border: 2px solid #fc8d38;
+  background-color: rgba(17, 1, 1, 0.5);
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: 1px 1px #5e5e64;
+}
+* .redsocial--nueva {
+  border-width: 3px;
+  color: #fff;
+}
+* .box {
+  background-color: green;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px #323037;
+}
+* .box {
+  height: 300px;
+  width: 90%;
+  background-color: blue;
+  background-image: url(../img/pilates1.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc8d38;
+}
+* .box2 {
+  height: 300px;
+  width: 90%;
+  background-color: green;
+  background-image: url(../img/pilates1.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fc8d38;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px #323037;
+}
+* .mixins p {
+  margin-top: 10%;
+}
+* .secServ {
+  height: 700px;
+  width: 100%;
+  background-image: url(../img/about22.jpg);
+  background-position: center;
+  background-size: cover;
+}
+* .secServ .textServ {
+  width: 95%;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: center;
+  text-align: center;
+  color: #fc8d38;
+}
+* .secServ .textServ .titleServ {
+  width: 100%;
+  padding: 5%;
+}
+* .secServ .textServ .titleServ h2 {
+  text-shadow: 1px 1px #323037;
+}
+* .secServ .textServ .titleServ p {
+  font-size: 20px;
+  text-shadow: 1px 1px #323037;
+}
+* .titleImg {
+  font-size: 30px;
+  color: #fc8d38;
+  text-align: center;
+}
+* .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 10px;
+}
+* .gallery-container .gallery__item {
+  position: relative;
+}
+* .gallery-container .gallery__item .gallery__img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;*/
+  background-image: center;
+  /*background-position: cover;*/
+}
+* .gallery-container .gallery__item .gallery__title {
+  position: absolute;
+  bottom: 0;
+  color: #fc8d38;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgb(0, 0, 0));
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+* .gallery-container .gallery__item:nth-child(4) {
+  grid-column-start: span 2;
+}
+* .gallery-container .gallery__item:nth-child(5) {
+  grid-row-start: span 2;
+}
+* .gallery-container .gallery__item:nth-child(9) {
+  grid-column-start: span 2;
+}
+* .imgVideo {
+  height: 600px;
+}
+* .imgVideo h2 {
+  font-size: 30px;
+  color: #fc8d38;
+  text-align: center;
+  margin-top: 5%;
+}
+* .imgVideo iframe {
+  width: 70%;
+  height: 500px;
+  margin-left: 15%;
+}
+* .mainClases {
+  background-color: #5e5e64;
+  box-sizing: border-box;
+}
+* .mainClases img {
+  width: 100%;
+}
+* .mainClases .contenedor2 {
+  margin: 0 auto;
+  max-width: 900px;
+}
+* .mainClases .contenedor2 .contenedor-clases {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+* .mainClases .titulo {
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+  font-size: 2.5rem;
+}
+* .mainClases .card {
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: #fc8d38;
+  overflow: hidden;
+}
+* .mainClases .imagen-comida {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+* .mainClases .btn-favorito {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+* .mainClases .btn-favorito:hover {
+  background-color: aliceblue;
+}
+* .cont .form1 .donde h2 {
+  width: 100%;
+  text-align: center;
+  color: #fc8d38;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-shadow: 1px 1px #323037;
+}
+* .cont .form1 .donde iframe {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+* .cont .form1 form {
+  margin-right: 0;
+  width: 80%;
+}
+* .cont .form1 form .form-group {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  padding-right: 0;
+  margin-right: 0;
+}
+* .cont .form1 form .form-group .formbtn {
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  background-color: #fc8d38;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+}
+* .cont .form1 .imgCont {
+  width: 50%;
+  padding: 0%;
+  margin-left: 20%;
+}
+* .secFooter {
+  background-color: #5e5e64;
+  height: 200px;
+  width: 100%;
+}
+* .secFooter #contenedor6 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+* .secFooter #contenedor6 a img {
+  padding-top: 1%;
+}
+* .secFooter #contenedor6 ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  padding-top: 1%;
+}
+* .secFooter #contenedor6 li {
+  padding: 1% 1% 0 1%;
+}
+* .secFooter #contenedor6 li a {
+  font-size: 14px;
+  color: #323037;
+  text-decoration: none;
+}
+* .secFooter #contenedor6 li a:hover {
+  color: wheat;
+}
+* .diseño .contenidoPie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+* .diseño .contenidoPie a {
+  text-decoration: none;
+  color: #fc8d38;
+}
+* .diseño .contenidoPie a:hover {
+  text-decoration: none;
+  color: #ceccca;
+}
+@media screen and (max-width: 767px) {
+  * {
+    /*seccion quienes somos*/
+    /*+++++FIN SECCION 2+++++*/
+    /*+++++INICIO SECCION 3+++++*/
+    /*+++++FIN SECCION 3+++++*/
+    /*+++++INICIO SECCION MASAJES+++++*/
+    /*+++++FIN SECCION MASAJES+++++*/
+    /*++++++++++++++FIN+++++++++++++++*/
+    /*++++++++++++++INDEX+++++++++++++++*/
+    /*++++++++++++++++INICIO NOSOTROS+++++++++++*/
+    /*+++++++++++++++FIN NOSOTROS+++++++++++++++*/
+    /*+++++++++++++++INICIO SERVICIOS++++++++++++++*/
+    /*++++++++++++++++FIN SERVICIOS++++++++++++++++*/
+    /*++++++++++++++++INICIO IMAGENES+++++++++++++++++*/
+    /*++++++++++++++++FIN IMAGENES++++++++++++++++++++*/
+    /*+++++++++++++++++contacto+++++++++++++++*/
+    /*+++++++++++++++++++fin contacto+++++++++++++++++++++*/
+    /*+++++SECCION FOOTER+++++*/
+    /*+++++FIN SECCION FOOTER+++++*/
+  }
+  * .espacio {
+    height: 600px;
+  }
+  * .espacio .caja1 {
+    background-image: url(../img/romisinfon2.png);
+    width: 50%;
+    height: 40%;
+    left: 5%;
+  }
+  * .espacio .caja2 {
+    width: 70%;
+    height: 80%;
+    right: 10%;
+  }
+  * .espacio .caja2 h2 {
+    font-size: 25px;
+    top: 20%;
+    left: 55%;
+  }
+  * .espacio .caja2 p {
+    width: 80%;
+    font-size: 18px;
+    top: 32%;
+    left: 15%;
+  }
+  * .sec2 {
+    height: 900px;
+    align-content: center;
+  }
+  * .sec2 h2 {
+    font-size: 25px;
+    left: 35%;
+    top: 4%;
+  }
+  * .sec2 p {
+    font-size: 18px;
+    width: 60%;
+    left: 25%;
+    top: 5%;
+  }
+  * .sec2 .imgSec2 {
+    width: 90%;
+    margin-left: 10%;
+    padding: 0 10%;
+    flex-direction: column;
+    align-content: center;
+    top: 5%;
+  }
+  * .sec2 .imgSec2 .img1 {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2%;
+  }
+  * .sec3 .caja3 {
+    width: 70%;
+    right: 20%;
+    top: 45px;
+  }
+  * .sec3 .caja4 {
+    height: 70%;
+    width: 50%;
+    right: 10%;
+    top: 15%;
+  }
+  * .sec3 .caja4 h2 {
+    font-size: 25px;
+    top: 4%;
+  }
+  * .sec3 .caja4 p {
+    font-size: 18px;
+    top: 5%;
+    width: 70%;
+    left: 20%;
+  }
+  * .sec4 h2 {
+    font-size: 30px;
+    width: 30%;
+    left: 30%;
+    top: 25%;
+    text-shadow: 1px 1px #323037;
+  }
+  * .sec4 p {
+    font-size: 20px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+  }
+  * .nosotros {
+    padding-top: 7%;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+  }
+  * .nosotros .secHistory {
+    padding: 10px;
+    height: 80%;
+    width: 70%;
+  }
+  * .secHistory h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  * .secHistory p {
+    font-size: 18px;
+  }
+  * .frases p {
+    font-size: 16px;
+    padding: 5%;
+  }
+  * .extend p {
+    font-size: 14px;
+  }
+  * .mixins p {
+    font-size: 20px;
+    margin-top: 10%;
+    text-shadow: 2px 2px #323037;
+  }
+  * .textServ {
+    width: 95%;
+    padding-top: 2%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+    color: #fc8d38;
+  }
+  * .titleServ {
+    width: 95%;
+    padding-bottom: 2px;
+    background-color: rgba(17, 1, 1, 0.5);
+    flex-direction: center;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+  * .titleServ h2 {
+    font-size: 20px;
+    color: wheat;
+    /*text-shadow: 1px 1px rgb(235, 232, 232);*/
+  }
+  * .titleServ p {
+    font-size: 14px;
+    color: wheat;
+    /* text-shadow: 1px 1px rgb(235, 232, 232);*/
+  }
+  * .titleImg {
+    font-size: 20px;
+    text-align: center;
+    color: #323037;
+  }
+  * .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+  }
+  * .gallery__title {
+    font-size: 16px;
+    color: white;
+  }
+  * .gallery__item:nth-child(3) {
+    grid-column-start: span 2;
+  }
+  * .gallery__item:nth-child(8) {
+    grid-column-start: span 2;
+  }
+  * .imgVideo {
+    height: 400px;
+  }
+  * .imgVideo h2 {
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+    color: #323037;
+  }
+  * .imgVideo iframe {
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+  }
+  * .donde h2 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  * .imgCont {
+    width: 70%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+  }
+  * .secFooter {
+    height: 150px;
+    display: block;
+    flex-direction: column;
+  }
+  * .secFFooter #contenedor6 {
+    justify-content: start;
+  }
+}
+
+/*+++++QUERIES TABLETA+++++*/
+/*+++++QUERIES TABLETA+++++*/
+/*INICIO MAIN*/
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0;
+  top: 50%;
+}
+.carousel-caption h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 43px;
+  text-transform: uppercase;
+  animation: bounceInRight;
+  animation-duration: 3s;
+  text-shadow: 2px 2px #323037;
+}
+.carousel-caption p {
+  padding: 20px;
+  font-size: 20px;
+  animation: backInUp;
+  animation-duration: 3s;
+}
+.carousel-caption .btn {
+  color: white;
+  border: none;
+  animation: backInUp;
+  animation-duration: 3s;
+}
+.carousel-caption .btn a {
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  border: 1px solid wheat;
+}
+
+/*FIN MAIN*/
+/*@mediaqueries*/
+@media screen and (max-width: 767px) {
+  .navbar img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .carousel-caption {
+    top: 35%;
+  }
+  .carousel-caption h1 {
+    font-size: 23px;
+  }
+  .carousel-caption p {
+    padding: 7px;
+    font-size: 14px;
+  }
+  .carousel-caption .btn {
+    width: 80px;
+    height: 15px;
+  }
+  .carousel-caption .btn a {
+    padding: 7px;
+    width: 90px;
+    height: 15px;
+    color: wheat;
+    text-transform: uppercase;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 2px;
+  }
+
+  .carousel-control-prev .carousel-control-prev-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .carousel-control-next .carousel-control-next-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

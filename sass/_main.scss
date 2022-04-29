@@ -1,0 +1,79 @@
+/*INICIO MAIN*/
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 50%;
+    h1{
+        font-family: $font1;
+        font-size: 43px;
+        text-transform: uppercase;
+        animation: bounceInRight;
+        animation-duration: 3s;
+        text-shadow: 2px 2px #323037;
+    }
+    p{
+        padding: 20px;
+        font-size: 20px;
+        animation: backInUp;
+        animation-duration: 3s;
+    }
+    .btn{
+        color: white;
+        border: none;
+        animation: backInUp;
+        animation-duration: 3s;
+        a{
+            text-transform: uppercase;
+            color: white;
+            padding: 20px;
+            border: 1px solid wheat;
+        }
+    }
+}
+
+/*FIN MAIN*/
+
+/*@mediaqueries*/
+
+@media screen and (max-width: 767px){
+    .navbar img{
+        height: 60px;
+        width: 60px;
+    }
+    .carousel-caption{
+        top: 35%;
+        h1{
+            font-size: 23px;
+        }
+        p{
+            padding: 7px;
+            font-size: 14px;
+        }
+        .btn{
+            width: 80px;
+            height: 15px;
+            a{
+                padding: 7px;
+                width: 90px;
+                height: 15px;
+                color: wheat;
+                text-transform: uppercase;
+                border: 1px solid wheat;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+    .carousel-indicators li{
+        width: 10px;
+        height: 2px;
+    }
+    .carousel-control-prev .carousel-control-prev-icon{
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-control-next .carousel-control-next-icon{
+        width: 15px;
+        height: 15px;
+    }
+}
