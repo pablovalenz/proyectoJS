@@ -1,4 +1,5 @@
 //variables
+
 const clases = [
 
     {
@@ -26,8 +27,9 @@ const clases = [
 
 ];
 
+const carrito = JSON.parse(localStorage.getItem('carrito')) || []
 const contenedorClases = document.querySelector(".contenedor-clases");
-const listadoFavoritos = document.querySelector('.listado-favoritos');
+const DomTurnos = document.querySelector('.turnos');
 
 //eventos
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,7 +52,7 @@ function mostrarClases() {
 
         const btnFavorito = document.createElement('button');
         btnFavorito.className = "btn-favorito"
-        btnFavorito.textContent = "Agregar al carrito";
+        btnFavorito.textContent = "Sacar turno";
        btnFavorito.addEventListener('click', respuestaClick)
 
        function respuestaClick(){
