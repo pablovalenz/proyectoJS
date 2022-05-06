@@ -1,3 +1,5 @@
+swal("Reservá tu turno y comenzá a disfrutar!");
+
 //variables
 
 const clases = [
@@ -66,3 +68,5 @@ function mostrarClases() {
         contenedorClases.appendChild(divClase);
     })
 } 
+
+
