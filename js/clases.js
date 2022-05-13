@@ -70,3 +70,16 @@ function mostrarClases() {
 } 
 
 
+console.log('Testing')
+
+fetch('https://jsonplaceholder.typicode.com/post')
+    then( (response) => {
+        console.log('finalizo la peticion')
+        return response.json()
+    })
+    .them( (json) => {
+        console.log('mostrando data')
+        console.log(json)
+    })
+
+
