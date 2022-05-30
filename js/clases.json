@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 800,
+      "id": 1,
+      "title": "Clase de prueba",
+      "thumbnailUrl": "img/todas1.jpg"
+    },
+    {
+      "precio": 3500,
+      "id": 2,
+      "title": "Pilates grupal",
+      "thumbnailUrl": "img/todas2.jpg"
+    },
+    {
+      "precio": 1200,
+      "id": 3,
+      "title": "Clase de Pilates individual",
+      "thumbnailUrl": "img/romi2.jpg"
+    },
+    {
+      "precio": 3500,
+      "id": 4,
+      "title": "Yoga Grupal",
+      "thumbnailUrl": "img/todods2.jpg"
+    },
+    {
+      "precio": 1200,
+      "id": 5,
+      "title": "Clase de Yoga individual",
+      "thumbnailUrl": "img/elle2.jpg"
+    },
+    {
+      "precio": 3500,
+      "id": 6,
+      "title": "Clase combinada",
+      "thumbnailUrl": "img/todas1.jpg"
+    }
+  ]
